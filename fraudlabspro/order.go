@@ -71,7 +71,7 @@ func (a *Order) Validate(params map[string]string) (map[string]interface{}, erro
 		params["amount"] = formatted
 	}
 
-	allowedKeys := []string{"ip", "key", "source", "source_version", "format", "last_name", "first_name", "bill_addr", "bill_city", "bill_state", "bill_country", "bill_zip_code", "ship_last_name", "ship_first_name", "ship_addr", "ship_city", "ship_state", "ship_country", "ship_zip_code", "user_phone", "email", "email_hash", "email_domain", "username", "bin_no", "card_hash", "avs_result", "cvv_result", "user_order_id", "amount", "quantity", "currency", "department", "payment_gateway", "payment_mode", "flp_checksum"} // whitelist
+	allowedKeys := []string{"ip", "key", "source", "source_version", "format", "last_name", "first_name", "bill_to", "bill_addr", "bill_city", "bill_state", "bill_country", "bill_zip_code", "ship_last_name", "ship_first_name", "ship_addr", "ship_city", "ship_state", "ship_country", "ship_zip_code", "user_phone", "email", "email_hash", "email_domain", "username", "bin_no", "card_hash", "avs_result", "cvv_result", "user_order_id", "amount", "quantity", "currency", "department", "payment_gateway", "payment_mode", "flp_checksum"} // whitelist
 	values := url.Values{}
 	for _, key := range allowedKeys {
 		if val, ok := params[key]; ok {

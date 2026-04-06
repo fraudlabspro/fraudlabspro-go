@@ -6,11 +6,11 @@
 # -- Project information
 
 project = 'FraudLabs Pro Go'
-copyright = '2025, FraudLabs Pro'
+copyright = '2026, FraudLabs Pro'
 author = 'FraudLabs Pro'
 
-release = '1.0.0'
-version = '1.0.0'
+release = '1.1.0'
+version = '1.1.0'
 
 # -- General configuration
 

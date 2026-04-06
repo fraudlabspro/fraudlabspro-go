@@ -257,3 +257,50 @@ func main() {
 	fmt.Printf("%+v\n", res)
 }
 ```
+
+### Report Payment Gateway Feedback
+
+You can report payment gateway feedback as below:
+
+```go
+package main
+
+import (
+	"github.com/fraudlabspro/fraudlabspro-go/fraudlabspro"
+	"fmt"
+)
+
+func main() {
+	apikey := "YOUR_API_KEY"
+
+	config, err := fraudlabspro.OpenConfiguration(apikey)
+
+	if err != nil {
+		fmt.Print(err)
+		return
+	}
+
+	pay, err := fraudlabspro.OpenPayment(config)
+
+	if err != nil {
+		fmt.Print(err)
+		return
+	}
+
+	params := make(map[string]string)
+
+	params["email"] = "hh5566@gmail.com"
+	params["status"] = "declined"
+	params["message"] = "Call Issuer. Pick Up Card. (2047)"
+	params["fraudlabspro_id"] = "20260131-O263CR"
+
+	res, err := pay.Feedback(params)
+
+	if err != nil {
+		fmt.Print(err)
+		return
+	}
+
+	fmt.Printf("%+v\n", res)
+}
+```
