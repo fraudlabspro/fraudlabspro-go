@@ -49,10 +49,11 @@ func main() {
 
 	params["user_order_id"] = "67398"
 	params["currency"] = "USD"
-	params["amount"] = "79.89"
-	params["quantity"] = "1"
+	params["amount"] = "119.98"
+	params["quantity"] = "2"
 	params["payment_gateway"] = "Gateway To Bliss"
 	params["payment_mode"] = fraudlabspro.PaymentMethodCreditCard
+	params["items"] = `[{"sku": "SKU-1001","quantity": 1,"price": 99.99,"type": "physical","name": "Wireless Headphones","purchase_type": "one-time purchase"},{"sku": "SKU-2005","quantity": 1,"price": 19.99,"type": "downloadable","name": "Country List"}]`
 
 	params["number"] = "4556553172971283"
 

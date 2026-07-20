@@ -9,8 +9,8 @@ project = 'FraudLabs Pro Go'
 copyright = '2026, FraudLabs Pro'
 author = 'FraudLabs Pro'
 
-release = '1.1.0'
-version = '1.1.0'
+release = '1.2.0'
+version = '1.2.0'
 
 # -- General configuration
 
