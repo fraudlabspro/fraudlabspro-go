@@ -9,7 +9,7 @@ Below are the features of this Go module:
 * Credit card issuing bank validation
 * SMS verification and validation
 
-This module requires API key to function. You can [sign up for a free API key at FraudLabs Pro](https://www.fraudlabspro.com/checkout-micro).
+This module requires an API key to function. You can [sign up for a free API key at FraudLabs Pro](https://www.fraudlabspro.com/checkout-micro).
 
 # Developer Documentation
 For installation instructions, usage, and code examples, refer to the [Developer Documentation](https://fraudlabspro-go.readthedocs.io/en/latest/index.html).
