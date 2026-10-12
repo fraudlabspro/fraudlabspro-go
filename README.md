@@ -12,7 +12,7 @@ Below are the features of this Go module:
 This module requires API key to function. You can [sign up for a free API key at FraudLabs Pro](https://www.fraudlabspro.com/checkout-micro).
 
 # Developer Documentation
-To learn more about installation, usage, and code examples, please visit the developer documentation at [https://fraudlabspro-go.readthedocs.io/en/latest/index.html.](https://fraudlabspro-go.readthedocs.io/en/latest/index.html)
+For installation instructions, usage, and code examples, refer to the [Developer Documentation](https://fraudlabspro-go.readthedocs.io/en/latest/index.html).
 
 
 # Reference
